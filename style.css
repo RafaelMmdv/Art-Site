@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --yasil: #54d154;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background:url('/img/headerbg.jpg') center/cover ;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font: 700 2em Montserrat;
+    color: #fff;
+}
+
+li>a {
+    text-decoration: none;
+}
+
+#menu {
+    list-style: none;
+}
+
+#menu li {
+    margin: 10px;
+}
+
+#menu li a {
+    font: 700 1em Roboto;
+    color: white;
+    padding: 5px 0;   
+    border-bottom: 5px solid #00000000 ; 
+}
+
+#search {
+    display: flex;
+}
+
+#search input:first-of-type { border-radius: 1em 0 0 1em; width: 140px;}
+#search button { border-radius: 0 1em 1em 0;} 
+
+#search input, #search button {
+     background: #ffffffcc;
+     border: none;
+     outline: none;
+     padding: 5px 15px;
+}
+
+
+
+.bgag {background-color: #fff;}
+.bgyasil {background-color:var(--yasil) ;}
+.bgboz {background-color: #f1f1f1;}
+.bgyasil h2 { color: #1f7b1f;}
+.bgyasil h6 { color: #2b9b2b;}
+.bgyasil hr {background-color: #1f7b1f;}
+
+h2 {
+    font: 1.3em ;
+    letter-spacing: 4px;
+    color: #828181;
+    font-weight: 300;
+    font-family: "Montserrat" sans-serif;
+    text-transform: uppercase;
+}
+
+h6 {
+    font: 1em Roboto;
+    color: #b7b3b3;
+}
+
+hr {
+    width: 3em;
+    border: 0;
+    height: 2px;
+    background-color: #828181;
+}
+
+main>section {
+    padding: 2em;
+    text-align: center;
+}
+
+
+@media only screen and (min-width:768px) {
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #menu {
+        display: flex; 
+        order: -1;
+    }
+
+    h1 {
+        font-size: 3.5em;
+    }
+
+    #menu li a:hover, #menu li a.active {
+        border-top: 5px solid var(--yasil);
+        }
+
+    #aboutart {
+        display: flex;
+    }
+        
+}
