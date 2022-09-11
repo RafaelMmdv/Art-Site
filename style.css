@@ -57,6 +57,27 @@ li>a {
      padding: 5px 15px;
 }
 
+#buttons3 {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#buttons3 button {
+    background: #fff;
+    border: 1px solid #2b9b2b;
+    padding: 7px 15px;
+    font: 1em Roboto;
+    color: #2b9b2b;
+}
+
+#buttons3 button:hover, #buttons3 button.active {
+    background-color: #2b9b2b;
+    color: #fff;
+}
+
+#buttons3 button:first-of-type{border-radius: 20px 0 0 20px;}
+#buttons3 button:last-of-type{border-radius: 0 20px 20px 0;}
 
 
 .bgag {background-color: #fff;}
@@ -85,11 +106,29 @@ hr {
     border: 0;
     height: 2px;
     background-color: #828181;
+    margin: auto;
 }
 
 main>section {
     padding: 2em;
     text-align: center;
+
+}
+
+
+#aboutart { padding: 20px 0; }
+#aboutart article { padding: 10px 20px; }
+#aboutart article span {
+    background: #e0f3e0;
+    width: 140px;
+    height: 140px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 28px;
+    font-size: 5.4em;
+    color: var(--yasil);
 }
 
 
@@ -116,5 +155,6 @@ main>section {
     #aboutart {
         display: flex;
     }
+    
         
 }
