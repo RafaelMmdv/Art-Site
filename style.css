@@ -15,8 +15,10 @@ header {
     align-items: center;
     text-align: center;
     height: 100vh;
-    background:url('/img/headerbg.jpg') center/cover ;
+    background:url('/img/artimg.jpg') center/cover ;
     background-repeat: no-repeat;
+    opacity: .9;
+
 }
 
 h1 {
