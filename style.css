@@ -176,7 +176,30 @@ main>section {
     object-fit: cover;
 }  
 
+.ceo {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
 
+.ceo-face {
+    border: 1px solid rgb(114, 114, 114);
+    padding: 5px 7px;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+
+.ceo-name {
+    margin-left: .5rem;
+    text-align: start;
+}
+
+.section-3 p{
+    max-width: 450px;
+    margin: 0 auto;
+    margin-top: 4rem;
+}
 
 @media only screen and (max-width: 600px) {
 
