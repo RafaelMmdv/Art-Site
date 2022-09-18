@@ -221,15 +221,56 @@ main>section {
     height: 21px; width: 116px;
 }
 
+#intel {
+    height: 68px; width: 103px;
+}
+
 .line {
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
 margin-top: 2rem;
 }
 
-.line img:not(:first-child){
-    margin-left: 7rem;
+
+
+ #krisna {
+    background: url('../img/krisna.png') center top/cover; ;
+}
+
+#gabriel {
+    background: url('/img/gabriel.png') center top/cover;
+}
+
+#adik {
+    background: url('/img/adik.png') center top/cover;
+}
+
+#zlatan {
+    background: url('/img/zlatan.png') center top/cover;
+}
+
+#zan {
+    background: url('/img/zan.png') center top/cover;
+}
+
+.team {
+    display: grid;
+    justify-content: center;
+}
+
+.member {
+    background-color: #fff; 
+    border-radius: 50%; 
+    width: 124px; 
+    height: 124px;
+    margin-bottom: 10px;
+}
+
+.member>div { 
+    width: 124px; 
+    height: 124px;
+    border-radius: 50%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -269,4 +310,8 @@ margin-top: 2rem;
         margin: auto;
     }
 
+
+    .line img:not(:first-child){
+        margin-left: 7rem;
+    }
 }
