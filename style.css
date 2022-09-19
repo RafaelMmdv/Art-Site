@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -268,19 +270,37 @@ main>section {
 }
 
 .member {
+    margin-bottom: 50px;
+}
+
+.person {
     background-color: #fff; 
     border-radius: 50%; 
     width: 124px; 
     height: 124px;
-    margin-bottom: 100px;
 }
 
-.member>div { 
+.person>div { 
     width: 124px; 
     height: 124px;
     border-radius: 50%;
     margin-bottom: 10px;
 }
+
+.social {
+    padding: 5px 10px; 
+    background: #c5e9c5;
+    border-radius: 1.5em;
+    margin-top: 10px;
+}
+    
+h5 { font: 1em Roboto; color: #fff; }
+
+
+.social i { font-size: 2em; }
+.fa-dribbble-square { color: #da8ca7;  }
+.fa-behance-square { color: #7fa9ee; }
+.fa-twitter-square { color: #82c2db; }
 
 @media only screen and (max-width: 600px) {
 
