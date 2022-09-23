@@ -302,6 +302,17 @@ h5 { font: 1em Roboto; color: #fff; }
 .fa-behance-square { color: #7fa9ee; }
 .fa-twitter-square { color: #82c2db; }
 
+footer {
+    display: grid;
+    justify-content: center;
+    padding: 4em 2em;
+    background-color: #000000b3;
+}
+
+input, textarea {
+background: #434343;;
+}
+
 .recent .post {
     display: flex;
 }
@@ -314,9 +325,13 @@ h5 { font: 1em Roboto; color: #fff; }
 }
 
 .about_us .social {
-    width: 128px;
     display: flex;
     justify-content: center;
+    margin: 1rem 5rem;
+}
+
+.about_us hr {
+    margin-bottom: 1rem;
 }
 
 .about_us>* {
@@ -327,6 +342,19 @@ h5 { font: 1em Roboto; color: #fff; }
 #form-contact {
     display: grid;
     flex-direction: column;
+}
+
+.contact h3 {
+    display: grid;
+    justify-content: center;
+}
+
+.about_us p {
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
