@@ -302,6 +302,17 @@ h5 { font: 1em Roboto; color: #fff; }
 .fa-behance-square { color: #7fa9ee; }
 .fa-twitter-square { color: #82c2db; }
 
+.recent .post {
+    display: flex;
+}
+
+.img>img {
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+
 @media only screen and (max-width: 600px) {
 
     #imgs>img { width: 100%; height: auto;}
@@ -343,4 +354,5 @@ h5 { font: 1em Roboto; color: #fff; }
     .line img:not(:first-child){
         margin-left: 7rem;
     }
+
 }
