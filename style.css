@@ -307,6 +307,7 @@ footer {
     justify-content: center;
     padding: 4em 2em;
     background-color: #000000b3;
+    color: white;
 }
 
 input, textarea {
@@ -342,11 +343,17 @@ background: #434343;;
 #form-contact {
     display: grid;
     flex-direction: column;
+    margin-top: 1rem;
 }
 
 .contact h3 {
     display: grid;
     justify-content: center;
+    margin-bottom: .3em;
+}
+
+.contact hr {
+    margin-bottom: .8rem;
 }
 
 .about_us p {
@@ -356,6 +363,19 @@ background: #434343;;
 .contact {
     text-align: center;
 }
+
+.post {
+    margin-top: .2rem;
+}
+
+.contact {
+    margin-top: 2rem;
+}
+
+#buttons1 {
+    background: rgb(101, 255, 101);
+}
+
 
 @media only screen and (max-width: 600px) {
 
@@ -397,6 +417,31 @@ background: #434343;;
 
     .line img:not(:first-child){
         margin-left: 7rem;
+    }
+
+    .team {
+        display: flex;
+        margin: 2rem 0;
+    }
+
+    .member {
+         margin: 1rem 2rem;
+    }
+
+    .member hr {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .col33 {
+        width: 33.3%;
+        max-width: 320px;
+        justify-content: center;
     }
 
 }
