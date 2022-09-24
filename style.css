@@ -221,6 +221,7 @@ main>section {
 
 #qualcomm {
     height: 32px; width: 149px;
+    display: flex;
 }
 
 #asus {
@@ -306,16 +307,13 @@ h5 { font: 1em Roboto; color: #fff; }
 .fa-behance-square { color: #7fa9ee; }
 .fa-twitter-square { color: #82c2db; }
 
-footer {
-    display: grid;
-    justify-content: center;
-    padding: 4em 2em;
+.bg {
     background-color: #000000b3;
-    color: white;
+
 }
 
 input, textarea {
-background: #434343;;
+background: #434343;
 }
 
 .recent .post {
@@ -420,7 +418,10 @@ background: #434343;;
 }
 
 .row {
+    display: grid;
+    justify-content: center;
     padding: 4em 2em;
+    color: white;
 }
 
 @media only screen and (max-width: 600px) {
@@ -461,7 +462,7 @@ background: #434343;;
     }
 
 
-    .line img:not(:first-child){
+    .line img{
         margin-left: 7rem;
     }
 
@@ -503,5 +504,9 @@ background: #434343;;
         justify-content: space-between;
         max-width: 1100px;
         margin: 0 auto;
+    }
+
+    .line {
+        display: flex;
     }
 }
