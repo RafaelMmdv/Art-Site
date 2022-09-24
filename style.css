@@ -424,6 +424,12 @@ background: #434343;
     color: white;
 }
 
+footer {
+    background: #000000cc;
+    display: flex;
+    justify-content: center;
+}
+
 @media only screen and (max-width: 600px) {
 
     #imgs>img { width: 100%; height: auto;}
@@ -480,10 +486,6 @@ background: #434343;
         margin-bottom: 1rem;
     }
 
-    footer {
-        display: flex;
-        justify-content: space-between;
-    }
 
     .col33 {
         width: 33.3%;
@@ -509,4 +511,20 @@ background: #434343;
     .line {
         display: flex;
     }
+
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .footer img {
+        display: block;
+        margin: 0 auto 20px auto;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
 }
