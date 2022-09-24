@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font: 1em Roboto ;
+}
+
 :root {
     --yasil: #54d154;
 }
@@ -368,6 +372,12 @@ background: #434343;;
     margin-top: .2rem;
 }
 
+.post .right {
+    margin-left: 1rem;
+    display: grid;
+    align-items: center;
+}
+
 .contact {
     margin-top: 2rem;
 }
@@ -442,6 +452,14 @@ background: #434343;;
         width: 33.3%;
         max-width: 320px;
         justify-content: center;
+        display: grid;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+    }
+
+    .contact {
+        margin-top: 0;
     }
 
 }
