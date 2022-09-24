@@ -386,6 +386,42 @@ background: #434343;;
     background: rgb(101, 255, 101);
 }
 
+.bg-green {
+    background: rgb(135, 255, 143);
+}
+
+.bg-yellow {
+    background: rgb(255, 195, 14);
+}
+
+.bg-blue {
+    background: rgb(27, 145, 255);
+}
+
+.bg-pink {
+    background: rgb(255, 160, 87);
+}
+
+.bg-light {
+    background: rgb(255, 229, 81);
+}
+
+.post p, span {
+        text-transform: capitalize;
+        font: 300 1em Montserrat;
+}
+
+.post span {
+        display: inline-block;
+        padding: 5px 7px;
+        text-transform: uppercase;
+        font: 300 0.7em Montserrat;
+        color: #fff;
+}
+
+.row {
+    padding: 4em 2em;
+}
 
 @media only screen and (max-width: 600px) {
 
@@ -462,4 +498,10 @@ background: #434343;;
         margin-top: 0;
     }
 
+    .row {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1100px;
+        margin: 0 auto;
+    }
 }
