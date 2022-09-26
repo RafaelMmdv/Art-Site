@@ -421,6 +421,7 @@ background: #434343;
 
 #buttons1 {
     background: rgb(101, 255, 101);
+    border: none;
 }
 
 .bg-green {
@@ -554,4 +555,5 @@ footer { background: #000000cc; padding-top: 20px;}
 
     .footer { display: flex; justify-content: space-between; }
 
+    
 }
